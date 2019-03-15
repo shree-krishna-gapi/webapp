@@ -1,0 +1,202 @@
+.pbody {
+	width: 84%;
+	margin: 0 auto;
+	
+}
+ 
+input[type=number], input {
+	color: #000!important;
+
+}
+.b-less-input,.b-less-input:active{
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+}
+
+.pcontainer {
+}
+.b-c-l:before {
+	clear: left;
+	content: '';
+	display: block;
+}
+.no-print {
+	display: none!important;
+}
+.bill-h-left {
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+.bill-h-left div {
+	margin-top: 7px;
+}
+.bill-r-left {
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+.bill-r-left div {
+	margin-top: 7px;
+}
+/*,.no-print-html input*/
+.no-print-html,.no-print-html div,.no-print-html p,.no-print-html button {
+	display: hidden!important;
+}
+
+
+.invoice-transact-table {
+	width: 100%;
+	margin-top: 20px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+/*.invoice-transact-table tr {
+	width: 100%;
+	display: block;
+}
+.invoice-transact-table thead tr th {
+	padding-bottom: 0;
+	display: inline-block;
+*/}
+.invoice-footer-table tbody tr {
+	border: 0;
+}
+.invoice-footer-table {
+	width: 100%;
+	margin-top: 40px;
+	display: block;
+}
+.invoice-footer-table tbody tr td {
+	padding-top: 0;
+	padding-bottom: 0;
+	border: 0;
+	
+}
+.invoice-footer-table tbody tr td:nth-child(1) {
+	font-weight: 600;
+	width: 65%;
+
+}
+.invoice-footer-table tbody tr td:nth-child(2) {
+	font-weight: 600;
+	width: 32%;
+	padding-right: 10px;
+}
+	
+.data-bill-tbody tr td {
+	/*display: inline-block;*/
+}
+.data-bill-tbody tr td .m-text {
+	border-width: 0 0 1px 0;
+	border-style: dashed;
+	text-align: center;
+	width: 60%;
+}
+.data-bill-tbody tr td:nth-child(3),.data-bill-tbody tr td:nth-child(4),.data-bill-tbody tr td:nth-child(5),.data-bill-tbody tr td:nth-child(6),.data-bill-tbody tr td:nth-child(7) {
+	text-align: center;
+}
+.invoice-footer-table tbody tr td .invoice-input {
+	border-width: 0 0 1px 0;
+	border-style: dashed;
+	width: 90%;
+}
+.invoice-footer-table tbody tr td .invoice-input:active {
+	border-width: 0 0 1px 0;
+    border-color: #fff;
+}
+.invoice-footer-table tbody tr td .invoice-input:focus {
+	border-width: 0 0 1px 0;
+    border-color: #798896;
+	outline: none;
+}
+
+.f-right {
+	float: right;	
+}
+.f-left {
+	float: left;
+}
+.col-md-5 {
+    width: 41.66666667%;
+}
+.col-md-6 {
+    width: 50%; 
+	float: left;
+}
+.col-md-7 {
+    width: 58.33333333%; 
+}
+.sales-heading-left {
+	width: 60%;
+	float: left;
+}
+.sales-heading-left div p {
+	font-weight: 600;
+    font-size: 15px;
+    padding-left: 0;
+    width: 27%;
+    display: inline-block;
+    margin: 0!important;
+}
+
+.sales-heading-left div span {
+	width: 73%;
+	display: inline;
+}
+.sales-heading-left div span:before { 
+	content: ':';
+	padding-right: 15px;
+}
+
+.sales-heading-left :after {
+	clear: both!important;
+}
+
+
+.sales-heading-right {
+	padding-top: 15px;
+	width: 40%;
+	float: left;
+}
+.sales-heading-right:after { 
+	clear: both;
+}
+.sales-heading-right div p {
+	font-weight: 600;
+    font-size: 15px;
+    padding-left: 0;
+    width: 45%;
+    display: inline-block;
+    margin: 0!important;
+    text-align: right;
+}
+.sales-heading-right div span {
+	width: 54%;
+	display: inline;
+	padding-left: 15px;
+}
+.sales-heading-right div span:before { 
+	content: ':';
+	padding-right: 15px;
+}
+.payment-info-statement {
+	width: 100%;
+	margin-top: 35px;
+}
+.payment-info-statement tbody tr td:nth-child(1){
+	width: 70%;
+	font-weight: 600;
+
+}
+.payment-info-statement tbody tr td:nth-child(1)::after {
+	content: ':';
+	text-align: right;
+	padding-right: 20px;
+    padding-left: 20px;
+}
+
+.payment-info-statement tbody tr td:nth-child(2){
+	width: 30%;
+	font-weight: 600;
+}

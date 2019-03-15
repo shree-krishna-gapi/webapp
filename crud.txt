@@ -1,0 +1,32 @@
+displaying record in codeigniter
+
+model
+first load the database
+$q=$this->db->get('table_name');
+if ($q->num_rows()>0) {  // for display only one line display
+if($q->result_array()>0) { //for display all data
+	return $q->row();
+}
+
+controller 
+$this->load->model('model_name');
+$ans = $this->load->model_name->model_function_name();
+
+$this->load->view('display_view_page','['throw_view'=>$ans]'); //throw is pass to view
+//
+$this->load->model('companymodel', 'records');
+		$records = $this->records->display_company();
+		$this->load->view('company/company',['records'=>$records]);
+view
+if(count($throw_view)>0) {
+	foreach($throw_view as $just_a_name_only) {
+		<td> <?= $throw_view->table_row_name; ?> </td>
+	}
+}
+
+       	<tr>
+                   <td><?php echo '<pre>';
+    print_r($records);
+    echo '</pre>';
+    exit; ?></td> 
+                  </tr>
