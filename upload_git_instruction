@@ -1,0 +1,8 @@
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+git init
+git add .
+git commit -m "My Commit"
+git status
+git remote add origin https://github.com/shree-krishna-gapi/link-video-play.git
+git push -u origin master
