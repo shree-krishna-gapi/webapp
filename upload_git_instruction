@@ -6,3 +6,12 @@ git commit -m "My Commit"
 git status
 git remote add origin https://github.com/shree-krishna-gapi/link-video-play.git
 git push -u origin master
+
+flutter instruction
+JAVA_HOME C:\Program Files\Java\jdk1.8.0_201
+C:\flutter\bin
+
+system variable
+C:\Users\Nilkrishna\AppData\Local\Android\Sdk\platforms
+C:\Users\Nilkrishna\AppData\Local\Android\Sdk\platform-tools
+C:\Program Files\BlueStacks\BlueStacks.exe
