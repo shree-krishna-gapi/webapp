@@ -1,0 +1,4 @@
+username: admin
+password: admin
+Database: web_store 
+Database_source: db/web_store.sql
